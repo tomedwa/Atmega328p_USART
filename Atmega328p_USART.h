@@ -1,3 +1,19 @@
+/*
+ **************************************************************
+ * Atmega328p_USART.h
+ * Author: Tom
+ * Date: 16/11/2023
+ * Simple AVR Library for USART serial communication. Only
+ * transmission has been added for this so far.
+ **************************************************************
+ * EXTERNAL FUNCTIONS
+ **************************************************************
+ * USART_init() - Initialise the 328p for USART comms.
+ * USART_transmit_character() - Transmit a char over USART.
+ * USART_transmit_string() - Transmit a string over USART.
+ **************************************************************
+*/
+
 #ifndef ATMEGA328P_USART_H_
 #define ATMEGA328P_USART_H_
 
